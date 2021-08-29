@@ -1,0 +1,33 @@
+/* main variables */
+:root{
+ --dark-blue: #073b4c;
+ --light-blue: #118ab2;
+ --green: #06d6a0;
+ --yellow: #ffd166;
+ --red: #ef476f;
+ --white: #f8f9fa;
+
+}
+
+/* removing all default margin and padding */
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------Header-------------------------------------------- */
+/* target header class */
+.header{
+    padding: 20px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.header div{
+
+}
+
+.header h1 {
+    font-size: 48px;
+}
