@@ -1,5 +1,6 @@
 /* main variables */
 :root{
+ --dark: #082032;
  --dark-blue: #073b4c;
  --light-blue: #118ab2;
  --green: #06d6a0;
@@ -19,15 +20,37 @@
 /* ---------------------------------------Header-------------------------------------------- */
 /* target header class */
 .header{
-    padding: 20px;
-    background-color: var(--dark-blue);
+    background-color: var(--dark);
     color: var(--white);
-}
-
-.header div{
-
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 100px;
 }
 
 .header h1 {
     font-size: 48px;
+    padding-left: 100px;
+    padding-right: 20px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--dark-blue);  
+    color: var(--white); 
 }
+
+.header div {
+    margin-right: 5rem;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.header a {
+    color: var(--white);
+    text-decoration: none;
+}
+
