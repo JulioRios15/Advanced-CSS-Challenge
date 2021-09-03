@@ -10,10 +10,23 @@
 * {
     top: 0;
     margin: 0;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding: 0 1rem;
     background-color: var(--white);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 /* ---------------------------------------Header-------------------------------------------- */
@@ -29,16 +42,13 @@
     border-bottom: solid .15rem var(--light-grey);
 }
 
-.header-title{
-
-}
-
 .header-nav{
     margin-right: 5rem;
 }
 
 .header h1 {
     font-size: 2.2rem;
+    font-weight: 600;
     padding-left: 5rem;
     color: var(--blue); 
 }
@@ -51,7 +61,7 @@
 }
 
 .header a {
-    font-weight: 900;
+    font-weight: 700;
     color: var(--blue);
     text-decoration: none;
 }
@@ -71,8 +81,6 @@
 }
 
 .home-main h2{
-    font-size: 3.2rem;
-    font-weight: 900;
     padding: 1rem;
 }
 
@@ -90,54 +98,57 @@
 }
 
 .home .card{
-    height: 28rem;
-    width: 18rem;
+    height: 32rem;
+    width: 20rem;
     padding: 1rem;
     margin: 1rem;
-    border-radius: 3%;
+    border-radius: 2%;
     background-color: var(--light-grey);
 }
 
 .card img{
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     margin-top: 1rem;
 }
 
 .card h3{
+    margin-bottom: 1rem;
     background-color: var(--light-grey);
-    font-size: 1.3rem;
-    font-weight: 900;
+    
 }
 
 .card p{
+    font-size: 1.2rem;
     background-color: var(--light-grey);
 }
 
 /* ---------------------------------------Projects-------------------------------------------- */
 
-/* ---------------------------------------About me-------------------------------------------- */
-.about-me{
-    display: flex;
-    justify-content: space-between;
+/* ---------------------------------------About----------------------------------------------- */
+.about{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.about-me div{
+.about-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: solid .15rem var(--light-grey);
+    padding: 0 16rem;
 }
 
-.about-me h2{
-    width: 20%;
-    padding: 1rem;
-    font-size: 28px;
-    text-align: center;
+.about-container h2{
+   
+}
+.about-container img{
+    float: left;
+    margin: 1rem;
+    border-radius: 50%;
 }
 
-
-.about-me p{
-    width: 80%;
-    padding: 1rem;
-}
-
-.card i {
-    font-size: 50px;
+.about-container p{
+    margin: 2rem 0rem;
+    text-align: left;
 }
 
