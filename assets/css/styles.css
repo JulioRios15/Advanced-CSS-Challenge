@@ -30,11 +30,13 @@ p{
     font-weight: 400;
 }
 
-:target::before {
-    content: "";
-    display: block;
-    height: 5rem;
-  }
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
 
 /* ---------------------------------------Header-------------------------------------------- */
 /* target header class */
@@ -201,6 +203,7 @@ p{
     background-color: var(--light-grey);
 }
 
+
 /* ---------------------------------------About----------------------------------------------- */
 .about{
   display: flex;
@@ -229,7 +232,50 @@ p{
 }
 
 /* ---------------------------------------Testimonials----------------------------------------------- */
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
+.testimonials-container{
+    border-bottom: solid .15rem var(--light-grey);
+    padding: 0 14rem;
+  }
+
+.testimonials-main{
+
+  }
+
+.testimonials-main h2{
+    padding: 1rem;
+}
+
+.testimonials-main p{
+    font-size: 1.8rem;
+    padding: 0rem 1rem;
+}
+
+.testimonials-module-container{
+
+  }
+
+.testimonials-module{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 5rem 0;
+  }
+
+.quoute p{
+    padding: 3rem 5rem;
+    border-radius: 8px;
+    background-color: var(--light-grey);
+  }
+
+.testimonials-logo{
+    border-radius: 50%;
+}
 /* ---------------------------------------Get In Touch----------------------------------------------- */
 
 
