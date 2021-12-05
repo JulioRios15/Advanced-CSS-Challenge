@@ -189,6 +189,13 @@ section{
     color: var(--blue);
     font-size: 2rem; 
 }
+.project-module-left-section p a {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 1.3rem; 
+}
+
+
 .project-module-left-section span a:hover {
     color: var(--blue-hover);
 }
@@ -271,7 +278,7 @@ section{
 
 .testimonials-module-container{
 
-  }
+}
 
 .testimonials-module{
     display: flex;
